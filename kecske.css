@@ -1,7 +1,22 @@
-main, header, aside, article, footer{
-    border: 1px solid black;
-    margin: 10px;
+@charset "utf-8";
+ *{box-sizing: border-box;}
+
+
+ header h1{
+     text-align: center;
+ }
+ header p{
+        size: 20px;
+        text-align: center;
+ }
+
+.bal{
+    cursor: grab;
 }
+    main,header,aside,article,footer{
+        border: 1px solid black;
+        margin: 10px;
+    }
 
 main{
     max-width: 900px;
@@ -52,5 +67,11 @@ footer p{
     height: 50%;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 19px;
+}
+.kiemel:hover{
+    border: 1px solid red;
+    cursor: grab;
+}
+.kiemel img{
+    width: 100%;
 }
