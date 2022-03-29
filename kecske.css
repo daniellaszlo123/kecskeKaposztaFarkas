@@ -1,9 +1,7 @@
 @charset "utf-8";
  *{box-sizing: border-box;}
 
- main{
-     margin: auto;
- }
+
  header h1{
      text-align: center;
  }
@@ -14,4 +12,66 @@
 
 .bal{
     cursor: grab;
+}
+    main,header,aside,article,footer{
+        border: 1px solid black;
+        margin: 10px;
+    }
+
+main{
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "h h h"
+                         "b a j"
+                         "f f f";
+}
+
+header{
+    grid-area: h;
+}
+
+header h1{
+    text-align: center;
+}
+
+header p{
+    text-align: justify;
+}
+
+#bal img{
+    width: 20%;
+}
+
+#bal{
+    grid-area: b;
+}
+
+#jobb{
+    grid-area: j;
+}
+
+article{
+    grid-area: a;
+    background-color: lightblue;
+}
+
+footer{
+    padding: 0;
+    grid-area: f;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+    height: 50%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.kiemel:hover{
+    border: 1px solid red;
+    cursor: grab;
+}
+.kiemel img{
+    width: 100%;
 }
