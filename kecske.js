@@ -14,9 +14,9 @@ function init() {
     ID(1).addEventListener("click", feltolt);
     ID(2).addEventListener("click", feltolt);
     ID(3).addEventListener("click", feltolt);
-    ID(1).addEventListener("click", kepStilus(kep1));
-    ID(2).addEventListener("click", kepStilus(kep2));
-    ID(3).addEventListener("click", kepStilus(kep3));
+    ID(1).addEventListener("click", kepStilus1);
+    ID(2).addEventListener("click", kepStilus1);
+    ID(3).addEventListener("click", kepStilus1);
 }
 
 function feltolt() {
@@ -24,6 +24,6 @@ function feltolt() {
     console.log(kepek);
 }
 
-function kepStilus(kep) {
-    kep.style.display="none"
+function kepStilus1() {
+    kep1.style.display="none"
 }
