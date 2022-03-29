@@ -11,7 +11,6 @@ var kep2=ID(2);
 var kep3=ID(3);
 
 function init() {
-
     for (let index = 1; index < 4; index++) {
         ID(index).addEventListener("click", feltolt);
         ID(index).addEventListener("click", kepStilus);
