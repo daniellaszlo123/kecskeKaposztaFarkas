@@ -11,7 +11,6 @@ var kep2=ID(2);
 var kep3=ID(3);
 
 function init() {
-
     for (let index = 1; index < 4; index++) {
         ID(index).addEventListener("click", feltolt);
         ID(index).addEventListener("click", kepStilus);
@@ -30,6 +29,3 @@ function kepStilus() {
     document.getElementById("kozepKep").innerHTML+="<img src="+event.target.src+">";
 }
 
-function kepStilus1() {
-    kep1.style.display="none"
-}
