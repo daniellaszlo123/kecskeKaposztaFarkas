@@ -3,20 +3,17 @@
 
 
  header h1{
-     text-align: center;
+    text-align: center;
  }
  header p{
-        size: 20px;
-        text-align: center;
+    size: 20px;
+    text-align: center;
  }
 
-.bal{
-    cursor: grab;
+main,header,aside,article,footer{
+    border: 1px solid black;
+    margin: 10px;
 }
-    main,header,aside,article,footer{
-        border: 1px solid black;
-        margin: 10px;
-    }
 
 main{
     max-width: 900px;
@@ -40,6 +37,10 @@ header p{
 
 #bal{
     grid-area: b;
+}
+
+#bal img{
+    width: 40%;
 }
 
 #jobb{
