@@ -1,0 +1,17 @@
+@charset "utf-8";
+ *{box-sizing: border-box;}
+
+ main{
+     margin: auto;
+ }
+ header h1{
+     text-align: center;
+ }
+ header p{
+        size: 20px;
+        text-align: center;
+ }
+
+.bal{
+    cursor: grab;
+}
