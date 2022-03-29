@@ -2,13 +2,23 @@
  *{box-sizing: border-box;}
 
 
+
 .bal{
     cursor: grab;
 }
-    main,header,aside,article,footer{
-        border: 1px solid black;
-        margin: 10px;
-    }
+ header h1{
+    text-align: center;
+ }
+ header p{
+    size: 20px;
+    text-align: center;
+ }
+
+main,header,aside,article,footer{
+    border: 1px solid black;
+    margin: 10px;
+
+}
 
 main{
     max-width: 900px;
@@ -31,6 +41,10 @@ header p{
     grid-area: b;
 }
 
+#bal img{
+    width: 40%;
+}
+
 #jobb{
     grid-area: j;
 }
@@ -42,7 +56,7 @@ article{
     background-repeat: no-repeat;
 }
 article img{
-        width: 40%;
+    width: 40%;
 }
 aside img{
     width: 40%;

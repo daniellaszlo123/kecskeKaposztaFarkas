@@ -79,6 +79,7 @@ function init() {
         ID(index).addEventListener("click", feltolt);
         ID(index).addEventListener("click", kepStilus);
     }
+
 }
 
 function feltolt() {
