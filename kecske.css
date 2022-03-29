@@ -49,8 +49,12 @@ header p{
 article{
     grid-area: a;
     background-color: lightblue;
+    background-image: url(kepek/csonak.png);
+    background-repeat: no-repeat;
 }
-
+article img{
+        width: 40%;
+}
 footer{
     padding: 0;
     grid-area: f;

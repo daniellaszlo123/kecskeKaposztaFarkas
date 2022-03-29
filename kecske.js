@@ -12,17 +12,10 @@ var kep3=ID(3);
 
 function init() {
 
-    for (let index = 1; index < 3; index++) {
+    for (let index = 1; index < 4; index++) {
         ID(index).addEventListener("click", feltolt);
         ID(index).addEventListener("click", kepStilus);
     }
-
-    ID(1).addEventListener("click", feltolt);
-    ID(2).addEventListener("click", feltolt);
-    ID(3).addEventListener("click", feltolt);
-    ID(1).addEventListener("click", kepStilus1);
-    ID(2).addEventListener("click", kepStilus1);
-    ID(3).addEventListener("click", kepStilus1);
 }
 
 function feltolt() {
@@ -34,7 +27,7 @@ function kepStilus() {
     event.target.style.display="none";
     event.target.src;
     console.log(event.target.src)
-    
+    document.getElementById("kozepKep").innerHTML+="<img src="+event.target.src+">";
 }
 
 function kepStilus1() {
