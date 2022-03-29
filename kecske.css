@@ -38,10 +38,6 @@ header p{
     text-align: justify;
 }
 
-#bal img{
-    width: 20%;
-}
-
 #bal{
     grid-area: b;
 }
@@ -67,8 +63,4 @@ footer p{
     height: 50%;
     margin-bottom: 5px;
     text-align: center;
-}
-.kiemel:hover{
-    border: 1px solid red;
-    cursor: grab;
 }

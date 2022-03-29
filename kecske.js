@@ -11,10 +11,18 @@ var kep2=ID(2);
 var kep3=ID(3);
 
 function init() {
+
     for (let index = 1; index < 3; index++) {
         ID(index).addEventListener("click", feltolt);
         ID(index).addEventListener("click", kepStilus);
     }
+
+    ID(1).addEventListener("click", feltolt);
+    ID(2).addEventListener("click", feltolt);
+    ID(3).addEventListener("click", feltolt);
+    ID(1).addEventListener("click", kepStilus1);
+    ID(2).addEventListener("click", kepStilus1);
+    ID(3).addEventListener("click", kepStilus1);
 }
 
 function feltolt() {
@@ -27,4 +35,8 @@ function kepStilus() {
     event.target.src;
     console.log(event.target.src)
     
+}
+
+function kepStilus1() {
+    kep1.style.display="none"
 }
