@@ -2,14 +2,6 @@
  *{box-sizing: border-box;}
 
 
- header h1{
-     text-align: center;
- }
- header p{
-        size: 20px;
-        text-align: center;
- }
-
 .bal{
     cursor: grab;
 }
@@ -30,9 +22,6 @@ header{
     grid-area: h;
 }
 
-header h1{
-    text-align: center;
-}
 
 header p{
     text-align: justify;
@@ -54,6 +43,9 @@ article{
 }
 article img{
         width: 40%;
+}
+aside img{
+    width: 40%;
 }
 footer{
     padding: 0;

@@ -1,7 +1,4 @@
-#bal img:hover{
+.kiemel{
     border: 1px solid red;
     cursor: grab;
-}
-#bal img{
-    width: 40%;
 }
